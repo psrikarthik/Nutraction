@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FCA0CEE1B0C7F4000494F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA0CED1B0C7F4000494F7A /* AppDelegate.swift */; };
+		6FCA0CF11B0C7F4000494F7A /* Nutraction.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA0CEF1B0C7F4000494F7A /* Nutraction.xcdatamodeld */; };
+		6FCA0CF31B0C7F4000494F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA0CF21B0C7F4000494F7A /* ViewController.swift */; };
+		6FCA0CF61B0C7F4000494F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCA0CF41B0C7F4000494F7A /* Main.storyboard */; };
+		6FCA0CF81B0C7F4000494F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCA0CF71B0C7F4000494F7A /* Images.xcassets */; };
+		6FCA0CFB1B0C7F4000494F7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCA0CF91B0C7F4000494F7A /* LaunchScreen.xib */; };
+		6FCA0D071B0C7F4000494F7A /* NutractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA0D061B0C7F4000494F7A /* NutractionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FCA0D011B0C7F4000494F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCA0CE01B0C7F4000494F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FCA0CE71B0C7F4000494F7A;
+			remoteInfo = Nutraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FCA0CE81B0C7F4000494F7A /* Nutraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCA0CEC1B0C7F4000494F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCA0CED1B0C7F4000494F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FCA0CF01B0C7F4000494F7A /* Nutraction.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nutraction.xcdatamodel; sourceTree = "<group>"; };
+		6FCA0CF21B0C7F4000494F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FCA0CF51B0C7F4000494F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FCA0CF71B0C7F4000494F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FCA0CFA1B0C7F4000494F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FCA0D001B0C7F4000494F7A /* NutractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCA0D051B0C7F4000494F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCA0D061B0C7F4000494F7A /* NutractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutractionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FCA0CE51B0C7F4000494F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCA0CFD1B0C7F4000494F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FCA0CDF1B0C7F4000494F7A = {
+			isa = PBXGroup;
+			children = (
+				6FCA0CEA1B0C7F4000494F7A /* Nutraction */,
+				6FCA0D031B0C7F4000494F7A /* NutractionTests */,
+				6FCA0CE91B0C7F4000494F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FCA0CE91B0C7F4000494F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA0CE81B0C7F4000494F7A /* Nutraction.app */,
+				6FCA0D001B0C7F4000494F7A /* NutractionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FCA0CEA1B0C7F4000494F7A /* Nutraction */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA0CED1B0C7F4000494F7A /* AppDelegate.swift */,
+				6FCA0CF21B0C7F4000494F7A /* ViewController.swift */,
+				6FCA0CF41B0C7F4000494F7A /* Main.storyboard */,
+				6FCA0CF71B0C7F4000494F7A /* Images.xcassets */,
+				6FCA0CF91B0C7F4000494F7A /* LaunchScreen.xib */,
+				6FCA0CEF1B0C7F4000494F7A /* Nutraction.xcdatamodeld */,
+				6FCA0CEB1B0C7F4000494F7A /* Supporting Files */,
+			);
+			path = Nutraction;
+			sourceTree = "<group>";
+		};
+		6FCA0CEB1B0C7F4000494F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA0CEC1B0C7F4000494F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FCA0D031B0C7F4000494F7A /* NutractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA0D061B0C7F4000494F7A /* NutractionTests.swift */,
+				6FCA0D041B0C7F4000494F7A /* Supporting Files */,
+			);
+			path = NutractionTests;
+			sourceTree = "<group>";
+		};
+		6FCA0D041B0C7F4000494F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA0D051B0C7F4000494F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FCA0CE71B0C7F4000494F7A /* Nutraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCA0D0A1B0C7F4000494F7A /* Build configuration list for PBXNativeTarget "Nutraction" */;
+			buildPhases = (
+				6FCA0CE41B0C7F4000494F7A /* Sources */,
+				6FCA0CE51B0C7F4000494F7A /* Frameworks */,
+				6FCA0CE61B0C7F4000494F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nutraction;
+			productName = Nutraction;
+			productReference = 6FCA0CE81B0C7F4000494F7A /* Nutraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FCA0CFF1B0C7F4000494F7A /* NutractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCA0D0D1B0C7F4000494F7A /* Build configuration list for PBXNativeTarget "NutractionTests" */;
+			buildPhases = (
+				6FCA0CFC1B0C7F4000494F7A /* Sources */,
+				6FCA0CFD1B0C7F4000494F7A /* Frameworks */,
+				6FCA0CFE1B0C7F4000494F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FCA0D021B0C7F4000494F7A /* PBXTargetDependency */,
+			);
+			name = NutractionTests;
+			productName = NutractionTests;
+			productReference = 6FCA0D001B0C7F4000494F7A /* NutractionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FCA0CE01B0C7F4000494F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Clykx;
+				TargetAttributes = {
+					6FCA0CE71B0C7F4000494F7A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6FCA0CFF1B0C7F4000494F7A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6FCA0CE71B0C7F4000494F7A;
+					};
+				};
+			};
+			buildConfigurationList = 6FCA0CE31B0C7F4000494F7A /* Build configuration list for PBXProject "Nutraction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FCA0CDF1B0C7F4000494F7A;
+			productRefGroup = 6FCA0CE91B0C7F4000494F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FCA0CE71B0C7F4000494F7A /* Nutraction */,
+				6FCA0CFF1B0C7F4000494F7A /* NutractionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FCA0CE61B0C7F4000494F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCA0CF61B0C7F4000494F7A /* Main.storyboard in Resources */,
+				6FCA0CFB1B0C7F4000494F7A /* LaunchScreen.xib in Resources */,
+				6FCA0CF81B0C7F4000494F7A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCA0CFE1B0C7F4000494F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FCA0CE41B0C7F4000494F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCA0CF31B0C7F4000494F7A /* ViewController.swift in Sources */,
+				6FCA0CF11B0C7F4000494F7A /* Nutraction.xcdatamodeld in Sources */,
+				6FCA0CEE1B0C7F4000494F7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCA0CFC1B0C7F4000494F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCA0D071B0C7F4000494F7A /* NutractionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FCA0D021B0C7F4000494F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FCA0CE71B0C7F4000494F7A /* Nutraction */;
+			targetProxy = 6FCA0D011B0C7F4000494F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FCA0CF41B0C7F4000494F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCA0CF51B0C7F4000494F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FCA0CF91B0C7F4000494F7A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCA0CFA1B0C7F4000494F7A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FCA0D081B0C7F4000494F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FCA0D091B0C7F4000494F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FCA0D0B1B0C7F4000494F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nutraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FCA0D0C1B0C7F4000494F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nutraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FCA0D0E1B0C7F4000494F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NutractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutraction.app/Nutraction";
+			};
+			name = Debug;
+		};
+		6FCA0D0F1B0C7F4000494F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NutractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutraction.app/Nutraction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FCA0CE31B0C7F4000494F7A /* Build configuration list for PBXProject "Nutraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCA0D081B0C7F4000494F7A /* Debug */,
+				6FCA0D091B0C7F4000494F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FCA0D0A1B0C7F4000494F7A /* Build configuration list for PBXNativeTarget "Nutraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCA0D0B1B0C7F4000494F7A /* Debug */,
+				6FCA0D0C1B0C7F4000494F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FCA0D0D1B0C7F4000494F7A /* Build configuration list for PBXNativeTarget "NutractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCA0D0E1B0C7F4000494F7A /* Debug */,
+				6FCA0D0F1B0C7F4000494F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FCA0CEF1B0C7F4000494F7A /* Nutraction.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FCA0CF01B0C7F4000494F7A /* Nutraction.xcdatamodel */,
+			);
+			currentVersion = 6FCA0CF01B0C7F4000494F7A /* Nutraction.xcdatamodel */;
+			path = Nutraction.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FCA0CE01B0C7F4000494F7A /* Project object */;
+}
